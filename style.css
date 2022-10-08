@@ -1,0 +1,185 @@
+
+/* -------  General Styles ------- */
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.OTDanyCOdUBGg4kKyyuG2wHaFj?pid=ImgDet&w=800&h=600&rs=1);
+  }
+  
+  header {
+    background-color: #403933;
+    background-image: url(https://th.bing.com/th/id/R.7c27acf30d320b39dd39c8470f0a35b9?rik=aU%2f%2fitbrBgRkxw&riu=http%3a%2f%2fwww.covertconcepts.com%2fwp-content%2fuploads%2f2018%2f05%2fFlag_of_the_United_States_1777-1795.jpg&ehk=7iubd4wV4woDQBJ0P3rg2%2fR7bUJaE5kpz0SgFORkIwc%3d&risl=&pid=ImgRaw&r=0);
+    margin-bottom: 40px;
+  }
+  
+  .logo {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 72px;
+    color: #c5c0b8;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+    padding: 20px 0 0 0;
+  }
+  
+  
+  /* ---  Navigation --- */
+  
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+  
+  header nav ul li {
+    list-style-type: none;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+  
+  @media all and (min-width: 700px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .logo {
+      margin: 14px 0 14px 20px;
+      padding-top: 0;
+      font-size: 42px;
+    }
+    
+    header nav {
+      margin-top: 14px;
+    }
+  }
+  
+
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  section {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: 20px 0;
+    background-image: url('https://th.bing.com/th/id/R.0f6a1518691948ef46636940175013f0?rik=GnpGnre9vdCRMA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2fe%2f9%2f603088.jpg&ehk=cR9woo%2bWSqc72TqJQTOHcSKWy0V2Pv2rK2t6q69n%2beE%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  
+  footer {
+    background-color: #000000;
+    background-image: url(https://th.bing.com/th/id/R.7c27acf30d320b39dd39c8470f0a35b9?rik=aU%2f%2fitbrBgRkxw&riu=http%3a%2f%2fwww.covertconcepts.com%2fwp-content%2fuploads%2f2018%2f05%2fFlag_of_the_United_States_1777-1795.jpg&ehk=7iubd4wV4woDQBJ0P3rg2%2fR7bUJaE5kpz0SgFORkIwc%3d&risl=&pid=ImgRaw&r=0);
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  
+  /* ---  Typography --- */
+  
+  h1 {
+    font-size: 28px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    color: #dbc761;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    margin: 0 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+  }
+  
+  p {
+   font-family: 'Montserrat', sans-serif;
+   line-height: 1.5em;
+   margin-bottom: 0;
+    color: #adfeff;
+  }
+  
+  main a {
+      font-weight: 700;
+      text-decoration: none;	
+  }
+  
+  main  a:link { color: #38786a; }
+  main  a:visited { color: #38786a; }
+  main  a:hover { color: #dbc761; }
+  a:active { color: #dbc761; }
+  
+  
+  a:hover {
+      text-decoration: underline;	
+  }
+  
+  footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  main img {
+    width: 100%;
+  }
+  
+  img.image-enhanced {
+    border-radius: 8px;
+  }
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-double {
+    flex: 2;
+  }
+  
+  
+  
+  /* ---  (Desktop) Groups & Items --- */
+  
+  @media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+    .group {
+      flex-direction: row;
+    }
+  }
+  
+  
+  
+  
+  
+  
